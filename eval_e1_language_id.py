@@ -263,11 +263,11 @@ def main():
     CYRILLIC_TURKIC = ['kk', 'ky', 'tt', 'ba', 'cv', 'sah']
     CYRILLIC_ALL = None  # Use all available
 
-    # Use provided filter or default to Slavic for demo
+    # Use provided filter or default
     lang_filter = args.languages
-    if lang_filter is None and args.script == 'cyrillic':
-        print("No language filter specified, using Slavic languages for demo")
-        lang_filter = CYRILLIC_SLAVIC
+    if lang_filter is None:
+        print(f"No language filter specified, using ALL available {args.script} languages")
+        lang_filter = None  # Will load all available
 
     # Load tokenizers
     print(f"\nLoading {args.script} tokenizers...")
