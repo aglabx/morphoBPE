@@ -16,7 +16,7 @@ import os
 import random
 from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List, Optional, Tuple
 import argparse
 from tqdm import tqdm
 
@@ -25,7 +25,7 @@ from tokenizer import Tokenizer
 
 
 def load_tokenizers(tokenizer_dir: str, script: str = "cyrillic",
-                    lang_filter: List[str] = None) -> Dict[str, Tokenizer]:
+                    lang_filter: Optional[List[str]] = None) -> Dict[str, Tokenizer]:
     """Load all tokenizers for a given script."""
     tokenizers = {}
     pattern = f"*.{script}.step1.json"
