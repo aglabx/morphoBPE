@@ -1,0 +1,3290 @@
+{
+  "model": "/mnt/projects/users/ichelombitko/mrl_eval/lid.176.bin",
+  "text_dir": "/mnt/projects/users/ichelombitko/cpp_stats/texts_wiki_cpp",
+  "n_langs_seen": 320,
+  "n_langs_covered_by_fasttext": 132,
+  "overall_accuracy_all_langs": 0.19834637606038003,
+  "overall_accuracy_on_covered_langs": 0.384214135279424,
+  "per_language": {
+    "ab": {
+      "n": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "kk": 3,
+        "mk": 1,
+        "sah": 1
+      }
+    },
+    "ace": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 92,
+        "fr": 67,
+        "id": 57
+      }
+    },
+    "ady": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 100,
+        "be": 70,
+        "krc": 48
+      }
+    },
+    "af": {
+      "n": 500,
+      "correct": 76,
+      "accuracy": 0.152,
+      "covered": true,
+      "top_pred_counts": {
+        "nl": 184,
+        "en": 88,
+        "af": 76
+      }
+    },
+    "alt": {
+      "n": 352,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 85,
+        "ky": 52,
+        "sr": 42
+      }
+    },
+    "am": {
+      "n": 71,
+      "correct": 68,
+      "accuracy": 0.9577464788732394,
+      "covered": true,
+      "top_pred_counts": {
+        "am": 68,
+        "ko": 2,
+        "en": 1
+      }
+    },
+    "ami": {
+      "n": 485,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 147,
+        "de": 34,
+        "id": 30
+      }
+    },
+    "an": {
+      "n": 500,
+      "correct": 2,
+      "accuracy": 0.004,
+      "covered": true,
+      "top_pred_counts": {
+        "es": 139,
+        "en": 83,
+        "it": 75
+      }
+    },
+    "ang": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 108,
+        "de": 75,
+        "da": 37
+      }
+    },
+    "anp": {
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "mr": 1
+      }
+    },
+    "ar": {
+      "n": 304,
+      "correct": 279,
+      "accuracy": 0.9177631578947368,
+      "covered": true,
+      "top_pred_counts": {
+        "ar": 279,
+        "fa": 12,
+        "arz": 8
+      }
+    },
+    "arc": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 156,
+        "zh": 94,
+        "tr": 54
+      }
+    },
+    "ary": {
+      "n": 66,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "ar": 57,
+        "fa": 9
+      }
+    },
+    "arz": {
+      "n": 57,
+      "correct": 13,
+      "accuracy": 0.22807017543859648,
+      "covered": true,
+      "top_pred_counts": {
+        "ar": 40,
+        "arz": 13,
+        "fa": 3
+      }
+    },
+    "as": {
+      "n": 2,
+      "correct": 1,
+      "accuracy": 0.5,
+      "covered": true,
+      "top_pred_counts": {
+        "bn": 1,
+        "as": 1
+      }
+    },
+    "ast": {
+      "n": 346,
+      "correct": 25,
+      "accuracy": 0.07225433526011561,
+      "covered": true,
+      "top_pred_counts": {
+        "es": 136,
+        "en": 57,
+        "ast": 25
+      }
+    },
+    "atj": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 111,
+        "de": 74,
+        "pl": 44
+      }
+    },
+    "av": {
+      "n": 124,
+      "correct": 16,
+      "accuracy": 0.12903225806451613,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 38,
+        "av": 16,
+        "kk": 10
+      }
+    },
+    "avk": {
+      "n": 162,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "fr": 30,
+        "en": 28,
+        "es": 14
+      }
+    },
+    "awa": {
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "hi": 1
+      }
+    },
+    "ay": {
+      "n": 274,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 101,
+        "es": 47,
+        "it": 12
+      }
+    },
+    "az": {
+      "n": 500,
+      "correct": 312,
+      "accuracy": 0.624,
+      "covered": true,
+      "top_pred_counts": {
+        "az": 312,
+        "tr": 100,
+        "en": 17
+      }
+    },
+    "azb": {
+      "n": 161,
+      "correct": 45,
+      "accuracy": 0.2795031055900621,
+      "covered": true,
+      "top_pred_counts": {
+        "fa": 82,
+        "azb": 45,
+        "ar": 12
+      }
+    },
+    "ba": {
+      "n": 500,
+      "correct": 214,
+      "accuracy": 0.428,
+      "covered": true,
+      "top_pred_counts": {
+        "ba": 214,
+        "ru": 69,
+        "tt": 63
+      }
+    },
+    "ban": {
+      "n": 72,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 16,
+        "id": 16,
+        "ms": 6
+      }
+    },
+    "bar": {
+      "n": 390,
+      "correct": 12,
+      "accuracy": 0.03076923076923077,
+      "covered": true,
+      "top_pred_counts": {
+        "de": 107,
+        "en": 82,
+        "nl": 26
+      }
+    },
+    "bcl": {
+      "n": 51,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 26,
+        "fr": 4,
+        "id": 3
+      }
+    },
+    "be-tarask": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "be": 313,
+        "ru": 84,
+        "uk": 60
+      }
+    },
+    "be": {
+      "n": 500,
+      "correct": 349,
+      "accuracy": 0.698,
+      "covered": true,
+      "top_pred_counts": {
+        "be": 349,
+        "ru": 63,
+        "uk": 48
+      }
+    },
+    "bg": {
+      "n": 500,
+      "correct": 294,
+      "accuracy": 0.588,
+      "covered": true,
+      "top_pred_counts": {
+        "bg": 294,
+        "ru": 121,
+        "mk": 46
+      }
+    },
+    "bho": {
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "hi": 1
+      }
+    },
+    "bi": {
+      "n": 385,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 141,
+        "es": 27,
+        "fr": 21
+      }
+    },
+    "bjn": {
+      "n": 120,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "id": 39,
+        "en": 19,
+        "ms": 14
+      }
+    },
+    "blk": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "bm": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 157,
+        "fr": 38,
+        "it": 22
+      }
+    },
+    "bn": {
+      "n": 1,
+      "correct": 1,
+      "accuracy": 1.0,
+      "covered": true,
+      "top_pred_counts": {
+        "bn": 1
+      }
+    },
+    "bo": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "bpy": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "br": {
+      "n": 236,
+      "correct": 45,
+      "accuracy": 0.1906779661016949,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 57,
+        "br": 45,
+        "de": 21
+      }
+    },
+    "bs": {
+      "n": 449,
+      "correct": 27,
+      "accuracy": 0.060133630289532294,
+      "covered": true,
+      "top_pred_counts": {
+        "hr": 83,
+        "sh": 67,
+        "en": 61
+      }
+    },
+    "bug": {
+      "n": 385,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "fr": 127,
+        "en": 104,
+        "de": 26
+      }
+    },
+    "bxr": {
+      "n": 339,
+      "correct": 22,
+      "accuracy": 0.06489675516224189,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 85,
+        "mn": 83,
+        "bxr": 22
+      }
+    },
+    "ca": {
+      "n": 500,
+      "correct": 171,
+      "accuracy": 0.342,
+      "covered": true,
+      "top_pred_counts": {
+        "ca": 171,
+        "en": 121,
+        "es": 58
+      }
+    },
+    "cbk": {
+      "n": 15,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "es": 10,
+        "it": 3,
+        "pt": 2
+      }
+    },
+    "cdo": {
+      "n": 14,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 7,
+        "vi": 1,
+        "pt": 1
+      }
+    },
+    "ce": {
+      "n": 121,
+      "correct": 25,
+      "accuracy": 0.2066115702479339,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 67,
+        "ce": 25,
+        "sr": 6
+      }
+    },
+    "ceb": {
+      "n": 133,
+      "correct": 48,
+      "accuracy": 0.3609022556390977,
+      "covered": true,
+      "top_pred_counts": {
+        "ceb": 48,
+        "en": 32,
+        "es": 6
+      }
+    },
+    "ch": {
+      "n": 256,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 63,
+        "es": 43,
+        "it": 18
+      }
+    },
+    "chr": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "chy": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "ckb": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "co": {
+      "n": 277,
+      "correct": 2,
+      "accuracy": 0.007220216606498195,
+      "covered": true,
+      "top_pred_counts": {
+        "it": 96,
+        "en": 34,
+        "de": 15
+      }
+    },
+    "cr": {
+      "n": 194,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 61,
+        "de": 10,
+        "fr": 10
+      }
+    },
+    "crh": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "cs": {
+      "n": 500,
+      "correct": 319,
+      "accuracy": 0.638,
+      "covered": true,
+      "top_pred_counts": {
+        "cs": 319,
+        "sk": 25,
+        "en": 24
+      }
+    },
+    "csb": {
+      "n": 112,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "pl": 45,
+        "en": 15,
+        "ca": 8
+      }
+    },
+    "cu": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "bg": 168,
+        "ru": 127,
+        "uk": 79
+      }
+    },
+    "cv": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "cy": {
+      "n": 500,
+      "correct": 175,
+      "accuracy": 0.35,
+      "covered": true,
+      "top_pred_counts": {
+        "cy": 175,
+        "en": 122,
+        "de": 33
+      }
+    },
+    "da": {
+      "n": 500,
+      "correct": 152,
+      "accuracy": 0.304,
+      "covered": true,
+      "top_pred_counts": {
+        "da": 152,
+        "en": 103,
+        "no": 66
+      }
+    },
+    "dag": {
+      "n": 353,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 148,
+        "it": 26,
+        "de": 16
+      }
+    },
+    "de": {
+      "n": 360,
+      "correct": 196,
+      "accuracy": 0.5444444444444444,
+      "covered": true,
+      "top_pred_counts": {
+        "de": 196,
+        "en": 100,
+        "fr": 12
+      }
+    },
+    "din": {
+      "n": 330,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 71,
+        "sq": 30,
+        "fi": 27
+      }
+    },
+    "diq": {
+      "n": 167,
+      "correct": 13,
+      "accuracy": 0.07784431137724551,
+      "covered": true,
+      "top_pred_counts": {
+        "tr": 28,
+        "en": 24,
+        "ku": 20
+      }
+    },
+    "dsb": {
+      "n": 21,
+      "correct": 2,
+      "accuracy": 0.09523809523809523,
+      "covered": true,
+      "top_pred_counts": {
+        "pl": 4,
+        "en": 3,
+        "dsb": 2
+      }
+    },
+    "dty": {
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "hi": 1
+      }
+    },
+    "dv": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "dz": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "ee": {
+      "n": 493,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 138,
+        "fr": 37,
+        "pl": 25
+      }
+    },
+    "el": {
+      "n": 500,
+      "correct": 494,
+      "accuracy": 0.988,
+      "covered": true,
+      "top_pred_counts": {
+        "el": 494,
+        "ru": 2,
+        "en": 2
+      }
+    },
+    "eml": {
+      "n": 310,
+      "correct": 17,
+      "accuracy": 0.054838709677419356,
+      "covered": true,
+      "top_pred_counts": {
+        "it": 48,
+        "ca": 46,
+        "en": 33
+      }
+    },
+    "en": {
+      "n": 500,
+      "correct": 416,
+      "accuracy": 0.832,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 416,
+        "de": 15,
+        "fr": 14
+      }
+    },
+    "eo": {
+      "n": 500,
+      "correct": 259,
+      "accuracy": 0.518,
+      "covered": true,
+      "top_pred_counts": {
+        "eo": 259,
+        "en": 57,
+        "es": 25
+      }
+    },
+    "es": {
+      "n": 500,
+      "correct": 277,
+      "accuracy": 0.554,
+      "covered": true,
+      "top_pred_counts": {
+        "es": 277,
+        "en": 90,
+        "pt": 38
+      }
+    },
+    "et": {
+      "n": 385,
+      "correct": 186,
+      "accuracy": 0.4831168831168831,
+      "covered": true,
+      "top_pred_counts": {
+        "et": 186,
+        "en": 55,
+        "fi": 31
+      }
+    },
+    "eu": {
+      "n": 494,
+      "correct": 238,
+      "accuracy": 0.4817813765182186,
+      "covered": true,
+      "top_pred_counts": {
+        "eu": 238,
+        "en": 47,
+        "nl": 28
+      }
+    },
+    "ext": {
+      "n": 100,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "es": 34,
+        "ca": 12,
+        "pt": 10
+      }
+    },
+    "fa": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "fat": {
+      "n": 484,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 243,
+        "nl": 23,
+        "de": 22
+      }
+    },
+    "ff": {
+      "n": 339,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 108,
+        "fi": 31,
+        "fr": 20
+      }
+    },
+    "fi": {
+      "n": 500,
+      "correct": 323,
+      "accuracy": 0.646,
+      "covered": true,
+      "top_pred_counts": {
+        "fi": 323,
+        "en": 55,
+        "it": 23
+      }
+    },
+    "fj": {
+      "n": 273,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 81,
+        "fi": 16,
+        "de": 16
+      }
+    },
+    "fo": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "fon": {
+      "n": 376,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 87,
+        "fr": 35,
+        "es": 21
+      }
+    },
+    "fr": {
+      "n": 500,
+      "correct": 317,
+      "accuracy": 0.634,
+      "covered": true,
+      "top_pred_counts": {
+        "fr": 317,
+        "en": 116,
+        "it": 17
+      }
+    },
+    "frp": {
+      "n": 67,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "fr": 25,
+        "en": 8,
+        "ca": 5
+      }
+    },
+    "frr": {
+      "n": 20,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "nl": 6,
+        "en": 2,
+        "de": 2
+      }
+    },
+    "fur": {
+      "n": 35,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "it": 5,
+        "en": 5,
+        "pl": 5
+      }
+    },
+    "fy": {
+      "n": 500,
+      "correct": 111,
+      "accuracy": 0.222,
+      "covered": true,
+      "top_pred_counts": {
+        "fy": 111,
+        "nl": 89,
+        "en": 72
+      }
+    },
+    "ga": {
+      "n": 327,
+      "correct": 118,
+      "accuracy": 0.36085626911314983,
+      "covered": true,
+      "top_pred_counts": {
+        "ga": 118,
+        "en": 72,
+        "de": 16
+      }
+    },
+    "gag": {
+      "n": 14,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "tr": 7,
+        "pt": 1,
+        "ht": 1
+      }
+    },
+    "gan": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "gcr": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "gd": {
+      "n": 244,
+      "correct": 54,
+      "accuracy": 0.22131147540983606,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 63,
+        "gd": 54,
+        "ga": 21
+      }
+    },
+    "gl": {
+      "n": 384,
+      "correct": 47,
+      "accuracy": 0.12239583333333333,
+      "covered": true,
+      "top_pred_counts": {
+        "es": 110,
+        "pt": 75,
+        "en": 66
+      }
+    },
+    "glk": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "fa": 271,
+        "ar": 135,
+        "azb": 24
+      }
+    },
+    "gn": {
+      "n": 22,
+      "correct": 4,
+      "accuracy": 0.18181818181818182,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 5,
+        "gn": 4,
+        "hr": 3
+      }
+    },
+    "gom": {
+      "n": 457,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 204,
+        "de": 24,
+        "es": 18
+      }
+    },
+    "gor": {
+      "n": 247,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "id": 86,
+        "en": 48,
+        "ms": 26
+      }
+    },
+    "got": {
+      "n": 63,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 50,
+        "de": 2,
+        "nl": 2
+      }
+    },
+    "gsw": {
+      "n": 464,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "de": 199,
+        "en": 82,
+        "als": 27
+      }
+    },
+    "gu": {
+      "n": 2,
+      "correct": 2,
+      "accuracy": 1.0,
+      "covered": true,
+      "top_pred_counts": {
+        "gu": 2
+      }
+    },
+    "guc": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "es": 126,
+        "en": 57,
+        "fi": 55
+      }
+    },
+    "gur": {
+      "n": 129,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 51,
+        "nl": 10,
+        "fr": 6
+      }
+    },
+    "guw": {
+      "n": 421,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 127,
+        "vi": 64,
+        "fr": 16
+      }
+    },
+    "gv": {
+      "n": 100,
+      "correct": 7,
+      "accuracy": 0.07,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 29,
+        "de": 8,
+        "gv": 7
+      }
+    },
+    "ha": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 182,
+        "de": 27,
+        "it": 26
+      }
+    },
+    "hak": {
+      "n": 11,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 5,
+        "es": 2,
+        "fr": 1
+      }
+    },
+    "haw": {
+      "n": 369,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 142,
+        "uz": 37,
+        "lv": 25
+      }
+    },
+    "he": {
+      "n": 500,
+      "correct": 498,
+      "accuracy": 0.996,
+      "covered": true,
+      "top_pred_counts": {
+        "he": 498,
+        "yi": 2
+      }
+    },
+    "hi": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "hif": {
+      "n": 136,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 91,
+        "fr": 9,
+        "de": 7
+      }
+    },
+    "hr": {
+      "n": 500,
+      "correct": 128,
+      "accuracy": 0.256,
+      "covered": true,
+      "top_pred_counts": {
+        "hr": 128,
+        "sh": 75,
+        "en": 66
+      }
+    },
+    "hsb": {
+      "n": 304,
+      "correct": 47,
+      "accuracy": 0.15460526315789475,
+      "covered": true,
+      "top_pred_counts": {
+        "hsb": 47,
+        "pl": 44,
+        "en": 38
+      }
+    },
+    "ht": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "hu": {
+      "n": 183,
+      "correct": 118,
+      "accuracy": 0.644808743169399,
+      "covered": true,
+      "top_pred_counts": {
+        "hu": 118,
+        "en": 28,
+        "it": 5
+      }
+    },
+    "hy": {
+      "n": 369,
+      "correct": 369,
+      "accuracy": 1.0,
+      "covered": true,
+      "top_pred_counts": {
+        "hy": 369
+      }
+    },
+    "hyw": {
+      "n": 312,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "hy": 312
+      }
+    },
+    "ia": {
+      "n": 235,
+      "correct": 9,
+      "accuracy": 0.03829787234042553,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 80,
+        "it": 49,
+        "es": 29
+      }
+    },
+    "id": {
+      "n": 500,
+      "correct": 223,
+      "accuracy": 0.446,
+      "covered": true,
+      "top_pred_counts": {
+        "id": 223,
+        "en": 84,
+        "ms": 66
+      }
+    },
+    "ie": {
+      "n": 253,
+      "correct": 2,
+      "accuracy": 0.007905138339920948,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 81,
+        "it": 27,
+        "es": 27
+      }
+    },
+    "ig": {
+      "n": 408,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 200,
+        "vi": 44,
+        "it": 16
+      }
+    },
+    "ik": {
+      "n": 333,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 65,
+        "fi": 39,
+        "es": 17
+      }
+    },
+    "ilo": {
+      "n": 65,
+      "correct": 3,
+      "accuracy": 0.046153846153846156,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 16,
+        "es": 7,
+        "ceb": 5
+      }
+    },
+    "inh": {
+      "n": 93,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 36,
+        "ce": 20,
+        "sr": 10
+      }
+    },
+    "io": {
+      "n": 221,
+      "correct": 7,
+      "accuracy": 0.03167420814479638,
+      "covered": true,
+      "top_pred_counts": {
+        "eo": 43,
+        "en": 26,
+        "it": 25
+      }
+    },
+    "is": {
+      "n": 311,
+      "correct": 101,
+      "accuracy": 0.3247588424437299,
+      "covered": true,
+      "top_pred_counts": {
+        "is": 101,
+        "en": 72,
+        "de": 14
+      }
+    },
+    "it": {
+      "n": 500,
+      "correct": 355,
+      "accuracy": 0.71,
+      "covered": true,
+      "top_pred_counts": {
+        "it": 355,
+        "en": 73,
+        "es": 18
+      }
+    },
+    "iu": {
+      "n": 474,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 150,
+        "ja": 86,
+        "zh": 84
+      }
+    },
+    "ja": {
+      "n": 146,
+      "correct": 1,
+      "accuracy": 0.00684931506849315,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 111,
+        "fr": 7,
+        "de": 6
+      }
+    },
+    "jam": {
+      "n": 337,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 77,
+        "fi": 40,
+        "nl": 22
+      }
+    },
+    "jbo": {
+      "n": 317,
+      "correct": 43,
+      "accuracy": 0.13564668769716087,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 55,
+        "jbo": 43,
+        "de": 22
+      }
+    },
+    "jv": {
+      "n": 359,
+      "correct": 26,
+      "accuracy": 0.07242339832869081,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 78,
+        "id": 48,
+        "jv": 26
+      }
+    },
+    "ka": {
+      "n": 500,
+      "correct": 487,
+      "accuracy": 0.974,
+      "covered": true,
+      "top_pred_counts": {
+        "ka": 487,
+        "xmf": 12,
+        "nl": 1
+      }
+    },
+    "kaa": {
+      "n": 398,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "tr": 132,
+        "en": 53,
+        "az": 47
+      }
+    },
+    "kab": {
+      "n": 46,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 14,
+        "it": 8,
+        "de": 3
+      }
+    },
+    "kbd": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "mn": 117,
+        "ru": 84,
+        "be": 57
+      }
+    },
+    "kbp": {
+      "n": 256,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 40,
+        "it": 29,
+        "fr": 18
+      }
+    },
+    "kcg": {
+      "n": 211,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 102,
+        "de": 10,
+        "id": 10
+      }
+    },
+    "kg": {
+      "n": 261,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 66,
+        "de": 16,
+        "fr": 15
+      }
+    },
+    "ki": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 153,
+        "vi": 30,
+        "it": 27
+      }
+    },
+    "kk": {
+      "n": 249,
+      "correct": 152,
+      "accuracy": 0.6104417670682731,
+      "covered": true,
+      "top_pred_counts": {
+        "kk": 152,
+        "ru": 61,
+        "uk": 14
+      }
+    },
+    "kl": {
+      "n": 357,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "fi": 101,
+        "en": 43,
+        "et": 25
+      }
+    },
+    "km": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "kn": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "ko": {
+      "n": 215,
+      "correct": 211,
+      "accuracy": 0.9813953488372092,
+      "covered": true,
+      "top_pred_counts": {
+        "ko": 211,
+        "ja": 3,
+        "zh": 1
+      }
+    },
+    "koi": {
+      "n": 105,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 64,
+        "kv": 12,
+        "mn": 6
+      }
+    },
+    "krc": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "ks": {
+      "n": 238,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "ur": 91,
+        "fa": 88,
+        "pnb": 25
+      }
+    },
+    "ksh": {
+      "n": 297,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "de": 99,
+        "en": 56,
+        "nl": 26
+      }
+    },
+    "ku": {
+      "n": 110,
+      "correct": 49,
+      "accuracy": 0.44545454545454544,
+      "covered": true,
+      "top_pred_counts": {
+        "ku": 49,
+        "en": 12,
+        "tr": 11
+      }
+    },
+    "kv": {
+      "n": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "ky": 1,
+        "tg": 1,
+        "hr": 1
+      }
+    },
+    "kw": {
+      "n": 39,
+      "correct": 4,
+      "accuracy": 0.10256410256410256,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 16,
+        "kw": 4,
+        "de": 3
+      }
+    },
+    "ky": {
+      "n": 500,
+      "correct": 243,
+      "accuracy": 0.486,
+      "covered": true,
+      "top_pred_counts": {
+        "ky": 243,
+        "ru": 83,
+        "kk": 42
+      }
+    },
+    "la": {
+      "n": 500,
+      "correct": 90,
+      "accuracy": 0.18,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 131,
+        "la": 90,
+        "it": 50
+      }
+    },
+    "lad": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "es": 139,
+        "en": 70,
+        "it": 43
+      }
+    },
+    "lb": {
+      "n": 291,
+      "correct": 74,
+      "accuracy": 0.2542955326460481,
+      "covered": true,
+      "top_pred_counts": {
+        "lb": 74,
+        "de": 62,
+        "en": 39
+      }
+    },
+    "lbe": {
+      "n": 241,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 99,
+        "lez": 20,
+        "bg": 18
+      }
+    },
+    "lez": {
+      "n": 82,
+      "correct": 24,
+      "accuracy": 0.2926829268292683,
+      "covered": true,
+      "top_pred_counts": {
+        "lez": 24,
+        "ru": 11,
+        "bg": 9
+      }
+    },
+    "lfn": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 108,
+        "it": 87,
+        "es": 82
+      }
+    },
+    "lg": {
+      "n": 404,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 123,
+        "fi": 22,
+        "tr": 22
+      }
+    },
+    "li": {
+      "n": 500,
+      "correct": 24,
+      "accuracy": 0.048,
+      "covered": true,
+      "top_pred_counts": {
+        "nl": 167,
+        "en": 79,
+        "de": 52
+      }
+    },
+    "lij": {
+      "n": 106,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "es": 15,
+        "en": 15,
+        "it": 13
+      }
+    },
+    "lld": {
+      "n": 134,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 89,
+        "fr": 8,
+        "it": 7
+      }
+    },
+    "lmo": {
+      "n": 102,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 33,
+        "it": 17,
+        "de": 9
+      }
+    },
+    "ln": {
+      "n": 9,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "cs": 2,
+        "pl": 2,
+        "it": 1
+      }
+    },
+    "lo": {
+      "n": 1,
+      "correct": 1,
+      "accuracy": 1.0,
+      "covered": true,
+      "top_pred_counts": {
+        "lo": 1
+      }
+    },
+    "lt": {
+      "n": 500,
+      "correct": 315,
+      "accuracy": 0.63,
+      "covered": true,
+      "top_pred_counts": {
+        "lt": 315,
+        "en": 24,
+        "it": 22
+      }
+    },
+    "ltg": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "lv": 134,
+        "lt": 47,
+        "fi": 41
+      }
+    },
+    "lv": {
+      "n": 500,
+      "correct": 289,
+      "accuracy": 0.578,
+      "covered": true,
+      "top_pred_counts": {
+        "lv": 289,
+        "en": 38,
+        "lt": 23
+      }
+    },
+    "lzh": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "mad": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 90,
+        "id": 78,
+        "ms": 29
+      }
+    },
+    "mai": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "map-bms": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "mdf": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "mg": {
+      "n": 41,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 9,
+        "hu": 4,
+        "it": 4
+      }
+    },
+    "mhr": {
+      "n": 181,
+      "correct": 36,
+      "accuracy": 0.19889502762430938,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 108,
+        "mhr": 36,
+        "mn": 6
+      }
+    },
+    "mi": {
+      "n": 15,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 7,
+        "lv": 1,
+        "eu": 1
+      }
+    },
+    "min": {
+      "n": 30,
+      "correct": 6,
+      "accuracy": 0.2,
+      "covered": true,
+      "top_pred_counts": {
+        "min": 6,
+        "en": 5,
+        "id": 5
+      }
+    },
+    "mk": {
+      "n": 500,
+      "correct": 280,
+      "accuracy": 0.56,
+      "covered": true,
+      "top_pred_counts": {
+        "mk": 280,
+        "ru": 72,
+        "bg": 71
+      }
+    },
+    "ml": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "mn": {
+      "n": 500,
+      "correct": 333,
+      "accuracy": 0.666,
+      "covered": true,
+      "top_pred_counts": {
+        "mn": 333,
+        "ru": 61,
+        "bg": 13
+      }
+    },
+    "mni": {
+      "n": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "zh": 2,
+        "en": 1,
+        "fr": 1
+      }
+    },
+    "mnw": {
+      "n": 341,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 284,
+        "de": 8,
+        "fr": 7
+      }
+    },
+    "mr": {
+      "n": 1,
+      "correct": 1,
+      "accuracy": 1.0,
+      "covered": true,
+      "top_pred_counts": {
+        "mr": 1
+      }
+    },
+    "mrj": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "ms": {
+      "n": 306,
+      "correct": 79,
+      "accuracy": 0.2581699346405229,
+      "covered": true,
+      "top_pred_counts": {
+        "id": 109,
+        "ms": 79,
+        "en": 52
+      }
+    },
+    "mt": {
+      "n": 286,
+      "correct": 61,
+      "accuracy": 0.21328671328671328,
+      "covered": true,
+      "top_pred_counts": {
+        "mt": 61,
+        "it": 38,
+        "en": 34
+      }
+    },
+    "mwl": {
+      "n": 150,
+      "correct": 8,
+      "accuracy": 0.05333333333333334,
+      "covered": true,
+      "top_pred_counts": {
+        "pt": 46,
+        "en": 26,
+        "es": 19
+      }
+    },
+    "my": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "myv": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "mzn": {
+      "n": 388,
+      "correct": 26,
+      "accuracy": 0.06701030927835051,
+      "covered": true,
+      "top_pred_counts": {
+        "fa": 277,
+        "ar": 33,
+        "mzn": 26
+      }
+    },
+    "na": {
+      "n": 218,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 91,
+        "de": 19,
+        "fr": 12
+      }
+    },
+    "nah": {
+      "n": 11,
+      "correct": 8,
+      "accuracy": 0.7272727272727273,
+      "covered": true,
+      "top_pred_counts": {
+        "nah": 8,
+        "en": 1,
+        "ms": 1
+      }
+    },
+    "nan": {
+      "n": 58,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "nl": 24,
+        "en": 12,
+        "de": 5
+      }
+    },
+    "nap": {
+      "n": 305,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "it": 158,
+        "es": 26,
+        "en": 25
+      }
+    },
+    "nb": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "no": 188,
+        "en": 105,
+        "sv": 38
+      }
+    },
+    "nds-nl": {
+      "n": 323,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "nl": 116,
+        "en": 48,
+        "de": 34
+      }
+    },
+    "nds": {
+      "n": 332,
+      "correct": 43,
+      "accuracy": 0.12951807228915663,
+      "covered": true,
+      "top_pred_counts": {
+        "de": 83,
+        "en": 50,
+        "nds": 43
+      }
+    },
+    "ne": {
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "mai": 1
+      }
+    },
+    "new": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "nia": {
+      "n": 240,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 53,
+        "id": 24,
+        "it": 22
+      }
+    },
+    "nl": {
+      "n": 500,
+      "correct": 240,
+      "accuracy": 0.48,
+      "covered": true,
+      "top_pred_counts": {
+        "nl": 240,
+        "en": 126,
+        "de": 39
+      }
+    },
+    "nn": {
+      "n": 500,
+      "correct": 50,
+      "accuracy": 0.1,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 109,
+        "no": 107,
+        "nn": 50
+      }
+    },
+    "nov": {
+      "n": 178,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 32,
+        "it": 31,
+        "de": 21
+      }
+    },
+    "nqo": {
+      "n": 31,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "zh": 8,
+        "ja": 7,
+        "fr": 6
+      }
+    },
+    "nrm": {
+      "n": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "fr": 6,
+        "id": 1,
+        "sv": 1
+      }
+    },
+    "nso": {
+      "n": 45,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 14,
+        "it": 6,
+        "fr": 5
+      }
+    },
+    "nv": {
+      "n": 209,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "cs": 35,
+        "hu": 26,
+        "en": 19
+      }
+    },
+    "ny": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 159,
+        "de": 43,
+        "it": 32
+      }
+    },
+    "oc": {
+      "n": 281,
+      "correct": 26,
+      "accuracy": 0.09252669039145907,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 47,
+        "es": 40,
+        "ca": 38
+      }
+    },
+    "olo": {
+      "n": 26,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "fi": 17,
+        "en": 2,
+        "no": 1
+      }
+    },
+    "om": {
+      "n": 452,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 145,
+        "fi": 85,
+        "nl": 23
+      }
+    },
+    "or": {
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "bs": 1
+      }
+    },
+    "os": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "pa": {
+      "n": 1,
+      "correct": 1,
+      "accuracy": 1.0,
+      "covered": true,
+      "top_pred_counts": {
+        "pa": 1
+      }
+    },
+    "pag": {
+      "n": 302,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 89,
+        "id": 27,
+        "es": 19
+      }
+    },
+    "pam": {
+      "n": 235,
+      "correct": 2,
+      "accuracy": 0.00851063829787234,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 136,
+        "id": 15,
+        "de": 15
+      }
+    },
+    "pap": {
+      "n": 28,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "es": 4,
+        "it": 3,
+        "oc": 3
+      }
+    },
+    "pcd": {
+      "n": 292,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "fr": 160,
+        "en": 50,
+        "es": 16
+      }
+    },
+    "pdc": {
+      "n": 286,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "de": 89,
+        "en": 76,
+        "nl": 18
+      }
+    },
+    "pfl": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "de": 194,
+        "en": 55,
+        "fr": 25
+      }
+    },
+    "pi": {
+      "n": 364,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 136,
+        "lv": 79,
+        "it": 27
+      }
+    },
+    "pih": {
+      "n": 278,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 102,
+        "de": 27,
+        "nl": 16
+      }
+    },
+    "pl": {
+      "n": 429,
+      "correct": 337,
+      "accuracy": 0.7855477855477856,
+      "covered": true,
+      "top_pred_counts": {
+        "pl": 337,
+        "en": 44,
+        "es": 9
+      }
+    },
+    "pms": {
+      "n": 272,
+      "correct": 13,
+      "accuracy": 0.04779411764705882,
+      "covered": true,
+      "top_pred_counts": {
+        "it": 62,
+        "en": 54,
+        "ca": 21
+      }
+    },
+    "pnb": {
+      "n": 332,
+      "correct": 77,
+      "accuracy": 0.2319277108433735,
+      "covered": true,
+      "top_pred_counts": {
+        "ur": 137,
+        "fa": 82,
+        "pnb": 77
+      }
+    },
+    "pnt": {
+      "n": 83,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "el": 80,
+        "la": 1,
+        "bg": 1
+      }
+    },
+    "ps": {
+      "n": 169,
+      "correct": 47,
+      "accuracy": 0.2781065088757396,
+      "covered": true,
+      "top_pred_counts": {
+        "fa": 66,
+        "ps": 47,
+        "ar": 20
+      }
+    },
+    "pt": {
+      "n": 500,
+      "correct": 229,
+      "accuracy": 0.458,
+      "covered": true,
+      "top_pred_counts": {
+        "pt": 229,
+        "en": 95,
+        "es": 81
+      }
+    },
+    "pwn": {
+      "n": 316,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 81,
+        "id": 26,
+        "de": 16
+      }
+    },
+    "qu": {
+      "n": 26,
+      "correct": 7,
+      "accuracy": 0.2692307692307692,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 9,
+        "qu": 7,
+        "es": 2
+      }
+    },
+    "rm": {
+      "n": 300,
+      "correct": 20,
+      "accuracy": 0.06666666666666667,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 56,
+        "it": 55,
+        "de": 28
+      }
+    },
+    "rmy": {
+      "n": 324,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 61,
+        "de": 20,
+        "it": 17
+      }
+    },
+    "rn": {
+      "n": 386,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 124,
+        "it": 28,
+        "tr": 21
+      }
+    },
+    "ro": {
+      "n": 402,
+      "correct": 200,
+      "accuracy": 0.4975124378109453,
+      "covered": true,
+      "top_pred_counts": {
+        "ro": 200,
+        "en": 70,
+        "it": 38
+      }
+    },
+    "roa-tara": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "it": 212,
+        "en": 64,
+        "fr": 39
+      }
+    },
+    "ru": {
+      "n": 500,
+      "correct": 448,
+      "accuracy": 0.896,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 448,
+        "uk": 17,
+        "sr": 11
+      }
+    },
+    "rue": {
+      "n": 320,
+      "correct": 1,
+      "accuracy": 0.003125,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 182,
+        "uk": 58,
+        "sr": 21
+      }
+    },
+    "rup": {
+      "n": 295,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 67,
+        "pt": 44,
+        "ro": 30
+      }
+    },
+    "rw": {
+      "n": 446,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 166,
+        "it": 32,
+        "tr": 27
+      }
+    },
+    "sa": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "sah": {
+      "n": 500,
+      "correct": 296,
+      "accuracy": 0.592,
+      "covered": true,
+      "top_pred_counts": {
+        "sah": 296,
+        "ru": 65,
+        "ky": 18
+      }
+    },
+    "sat": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "sc": {
+      "n": 369,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "it": 98,
+        "es": 46,
+        "en": 39
+      }
+    },
+    "scn": {
+      "n": 362,
+      "correct": 9,
+      "accuracy": 0.024861878453038673,
+      "covered": true,
+      "top_pred_counts": {
+        "it": 149,
+        "en": 32,
+        "es": 17
+      }
+    },
+    "sco": {
+      "n": 500,
+      "correct": 14,
+      "accuracy": 0.028,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 335,
+        "de": 29,
+        "fr": 14
+      }
+    },
+    "sd": {
+      "n": 142,
+      "correct": 32,
+      "accuracy": 0.22535211267605634,
+      "covered": true,
+      "top_pred_counts": {
+        "ar": 51,
+        "fa": 34,
+        "sd": 32
+      }
+    },
+    "se": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "sg": {
+      "n": 186,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 31,
+        "ku": 21,
+        "fr": 19
+      }
+    },
+    "sgs": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "sh": {
+      "n": 500,
+      "correct": 90,
+      "accuracy": 0.18,
+      "covered": true,
+      "top_pred_counts": {
+        "hr": 105,
+        "sh": 90,
+        "sr": 68
+      }
+    },
+    "shi": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 131,
+        "de": 41,
+        "it": 33
+      }
+    },
+    "shn": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "si": {
+      "n": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "covered": true,
+      "top_pred_counts": {
+        "si": 5
+      }
+    },
+    "sk": {
+      "n": 500,
+      "correct": 204,
+      "accuracy": 0.408,
+      "covered": true,
+      "top_pred_counts": {
+        "sk": 204,
+        "cs": 93,
+        "en": 52
+      }
+    },
+    "skr": {
+      "n": 440,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "ur": 183,
+        "pnb": 113,
+        "fa": 86
+      }
+    },
+    "sl": {
+      "n": 500,
+      "correct": 190,
+      "accuracy": 0.38,
+      "covered": true,
+      "top_pred_counts": {
+        "sl": 190,
+        "hr": 39,
+        "sh": 36
+      }
+    },
+    "sm": {
+      "n": 124,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 30,
+        "fi": 8,
+        "pt": 8
+      }
+    },
+    "smn": {
+      "n": 24,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "fi": 6,
+        "cs": 5,
+        "nl": 3
+      }
+    },
+    "sn": {
+      "n": 164,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 67,
+        "it": 9,
+        "fi": 9
+      }
+    },
+    "so": {
+      "n": 407,
+      "correct": 25,
+      "accuracy": 0.06142506142506143,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 112,
+        "fi": 42,
+        "so": 25
+      }
+    },
+    "sq": {
+      "n": 370,
+      "correct": 117,
+      "accuracy": 0.3162162162162162,
+      "covered": true,
+      "top_pred_counts": {
+        "sq": 117,
+        "en": 53,
+        "nl": 32
+      }
+    },
+    "sr": {
+      "n": 134,
+      "correct": 24,
+      "accuracy": 0.1791044776119403,
+      "covered": true,
+      "top_pred_counts": {
+        "sh": 34,
+        "sr": 24,
+        "en": 13
+      }
+    },
+    "srn": {
+      "n": 23,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 5,
+        "no": 3,
+        "tr": 2
+      }
+    },
+    "ss": {
+      "n": 360,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 136,
+        "it": 20,
+        "fr": 14
+      }
+    },
+    "st": {
+      "n": 321,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 118,
+        "it": 17,
+        "es": 16
+      }
+    },
+    "stq": {
+      "n": 109,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "nl": 15,
+        "en": 15,
+        "de": 12
+      }
+    },
+    "su": {
+      "n": 31,
+      "correct": 7,
+      "accuracy": 0.22580645161290322,
+      "covered": true,
+      "top_pred_counts": {
+        "su": 7,
+        "en": 4,
+        "ms": 4
+      }
+    },
+    "sv": {
+      "n": 500,
+      "correct": 242,
+      "accuracy": 0.484,
+      "covered": true,
+      "top_pred_counts": {
+        "sv": 242,
+        "en": 77,
+        "no": 40
+      }
+    },
+    "sw": {
+      "n": 363,
+      "correct": 32,
+      "accuracy": 0.0881542699724518,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 98,
+        "sw": 32,
+        "it": 23
+      }
+    },
+    "szl": {
+      "n": 205,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "pl": 110,
+        "cs": 24,
+        "en": 15
+      }
+    },
+    "szy": {
+      "n": 258,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 61,
+        "ceb": 21,
+        "de": 18
+      }
+    },
+    "ta": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "tay": {
+      "n": 177,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 89,
+        "fr": 11,
+        "id": 10
+      }
+    },
+    "tcy": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "te": {
+      "n": 1,
+      "correct": 1,
+      "accuracy": 1.0,
+      "covered": true,
+      "top_pred_counts": {
+        "te": 1
+      }
+    },
+    "tet": {
+      "n": 323,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "pt": 107,
+        "en": 41,
+        "es": 37
+      }
+    },
+    "tg": {
+      "n": 225,
+      "correct": 69,
+      "accuracy": 0.30666666666666664,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 83,
+        "tg": 69,
+        "ceb": 11
+      }
+    },
+    "th": {
+      "n": 18,
+      "correct": 18,
+      "accuracy": 1.0,
+      "covered": true,
+      "top_pred_counts": {
+        "th": 18
+      }
+    },
+    "ti": {
+      "n": 355,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "am": 247,
+        "ko": 24,
+        "ru": 16
+      }
+    },
+    "tk": {
+      "n": 429,
+      "correct": 140,
+      "accuracy": 0.32634032634032634,
+      "covered": true,
+      "top_pred_counts": {
+        "tk": 140,
+        "tr": 84,
+        "en": 58
+      }
+    },
+    "tl": {
+      "n": 301,
+      "correct": 46,
+      "accuracy": 0.15282392026578073,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 99,
+        "tl": 46,
+        "ceb": 29
+      }
+    },
+    "tn": {
+      "n": 343,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 125,
+        "it": 33,
+        "es": 19
+      }
+    },
+    "to": {
+      "n": 211,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 83,
+        "de": 12,
+        "lv": 9
+      }
+    },
+    "tpi": {
+      "n": 13,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 6,
+        "fr": 2,
+        "it": 1
+      }
+    },
+    "tr": {
+      "n": 447,
+      "correct": 340,
+      "accuracy": 0.7606263982102909,
+      "covered": true,
+      "top_pred_counts": {
+        "tr": 340,
+        "en": 41,
+        "de": 9
+      }
+    },
+    "trv": {
+      "n": 290,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 98,
+        "id": 22,
+        "de": 17
+      }
+    },
+    "ts": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 236,
+        "it": 27,
+        "de": 26
+      }
+    },
+    "tt": {
+      "n": 365,
+      "correct": 172,
+      "accuracy": 0.4712328767123288,
+      "covered": true,
+      "top_pred_counts": {
+        "tt": 172,
+        "ru": 89,
+        "kk": 21
+      }
+    },
+    "tum": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 164,
+        "es": 126,
+        "it": 30
+      }
+    },
+    "tw": {
+      "n": 482,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 207,
+        "es": 20,
+        "pl": 20
+      }
+    },
+    "ty": {
+      "n": 177,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 38,
+        "es": 22,
+        "it": 16
+      }
+    },
+    "tyv": {
+      "n": 500,
+      "correct": 30,
+      "accuracy": 0.06,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 166,
+        "mn": 42,
+        "kk": 41
+      }
+    },
+    "udm": {
+      "n": 41,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "ru": 14,
+        "mn": 3,
+        "uk": 3
+      }
+    },
+    "ug": {
+      "n": 500,
+      "correct": 458,
+      "accuracy": 0.916,
+      "covered": true,
+      "top_pred_counts": {
+        "ug": 458,
+        "ceb": 9,
+        "ar": 8
+      }
+    },
+    "uk": {
+      "n": 500,
+      "correct": 367,
+      "accuracy": 0.734,
+      "covered": true,
+      "top_pred_counts": {
+        "uk": 367,
+        "ru": 88,
+        "bg": 11
+      }
+    },
+    "ur": {
+      "n": 323,
+      "correct": 139,
+      "accuracy": 0.43034055727554177,
+      "covered": true,
+      "top_pred_counts": {
+        "ur": 139,
+        "fa": 84,
+        "pnb": 54
+      }
+    },
+    "uz": {
+      "n": 500,
+      "correct": 135,
+      "accuracy": 0.27,
+      "covered": true,
+      "top_pred_counts": {
+        "uz": 135,
+        "en": 112,
+        "tr": 31
+      }
+    },
+    "ve": {
+      "n": 242,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 84,
+        "id": 18,
+        "de": 12
+      }
+    },
+    "vec": {
+      "n": 223,
+      "correct": 9,
+      "accuracy": 0.04035874439461883,
+      "covered": true,
+      "top_pred_counts": {
+        "it": 55,
+        "en": 27,
+        "pl": 24
+      }
+    },
+    "vep": {
+      "n": 222,
+      "correct": 11,
+      "accuracy": 0.04954954954954955,
+      "covered": true,
+      "top_pred_counts": {
+        "fi": 26,
+        "et": 19,
+        "en": 18
+      }
+    },
+    "vi": {
+      "n": 125,
+      "correct": 70,
+      "accuracy": 0.56,
+      "covered": true,
+      "top_pred_counts": {
+        "vi": 70,
+        "en": 29,
+        "fr": 4
+      }
+    },
+    "vls": {
+      "n": 500,
+      "correct": 15,
+      "accuracy": 0.03,
+      "covered": true,
+      "top_pred_counts": {
+        "nl": 127,
+        "en": 93,
+        "de": 36
+      }
+    },
+    "vo": {
+      "n": 61,
+      "correct": 5,
+      "accuracy": 0.08196721311475409,
+      "covered": true,
+      "top_pred_counts": {
+        "nl": 27,
+        "en": 8,
+        "fr": 6
+      }
+    },
+    "vro": {
+      "n": 204,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "et": 62,
+        "en": 41,
+        "fi": 29
+      }
+    },
+    "wa": {
+      "n": 30,
+      "correct": 4,
+      "accuracy": 0.13333333333333333,
+      "covered": true,
+      "top_pred_counts": {
+        "fr": 8,
+        "wa": 4,
+        "en": 4
+      }
+    },
+    "war": {
+      "n": 51,
+      "correct": 3,
+      "accuracy": 0.058823529411764705,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 22,
+        "ceb": 4,
+        "fr": 4
+      }
+    },
+    "wo": {
+      "n": 156,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 46,
+        "nl": 12,
+        "fi": 11
+      }
+    },
+    "wuu": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "xal": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "xh": {
+      "n": 482,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 147,
+        "de": 28,
+        "pl": 23
+      }
+    },
+    "xmf": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "yi": {
+      "n": 170,
+      "correct": 124,
+      "accuracy": 0.7294117647058823,
+      "covered": true,
+      "top_pred_counts": {
+        "yi": 124,
+        "he": 38,
+        "so": 8
+      }
+    },
+    "yo": {
+      "n": 14,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 11,
+        "sl": 1,
+        "hu": 1
+      }
+    },
+    "yue": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "za": {
+      "n": 15,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 5,
+        "de": 2,
+        "jv": 1
+      }
+    },
+    "zea": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "nl": 180,
+        "de": 59,
+        "en": 58
+      }
+    },
+    "zh": {
+      "n": 0,
+      "correct": 0,
+      "covered": false,
+      "accuracy": null
+    },
+    "zu": {
+      "n": 500,
+      "correct": 0,
+      "accuracy": 0.0,
+      "covered": true,
+      "top_pred_counts": {
+        "en": 170,
+        "de": 32,
+        "it": 32
+      }
+    }
+  }
+}

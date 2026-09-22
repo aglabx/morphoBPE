@@ -173,3 +173,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Paper build artefacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+
