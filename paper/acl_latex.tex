@@ -207,47 +207,6 @@ We use the term \textbf{glottoset} throughout this paper as shorthand for a lang
     \end{tabular}
 \end{table*}
 
-\begin{table*}[ht]
-    \caption{Lexical statistics for a diverse set of languages using Latin and Cyrillic scripts. The table presents vocabulary size (ranging from 1,447 for Cheyenne to 3,207,272 for Hungarian), lexical diversity scores (from 0.009 in Dutch to 0.383 in Cheyenne), median word length (6--10 characters), and top-3 most frequent tokens.}
-    \label{tab:lexical_stats_median}
-    \centering
-    \small
-    \renewcommand{\arraystretch}{1.1}
-    \begin{tabular}{l c c c c c}
-        \toprule
-        \textbf{Language} & \textbf{Script} & \textbf{Vocab Size} & \textbf{Lex.\ Div.} & \textbf{Med.\ WL} & \textbf{Top3} \\
-        \midrule
-        Swiss German & Latin & 565258 & 0.070 & 10 & d, isch, dr \\
-        Tajik & Cyrillic & 317780 & 0.041 & 8 & {\fontencoding{T2A}\selectfont дар, аз, ки} \\
-        Hungarian & Latin & 3207272 & 0.025 & 10 & a, \'es, az \\
-        Lingala & Latin & 23153 & 0.123 & 7 & ya, na, ezal\'i \\
-        Zeeuws & Latin & 51177 & 0.087 & 8 & de, n, t \\
-        Lak & Cyrillic & 6890 & 0.315 & 7 & {\fontencoding{T2A}\selectfont ва, шагьру, инсан} \\
-        Malay & Latin & 637993 & 0.011 & 8 & yang, di, dan \\
-        Cheyenne & Latin & 1447 & 0.383 & 6 & ho, e, v\'e \\
-        Aymara & Latin & 29323 & 0.171 & 8 & a, jisk, suyu \\
-        Friulian & Latin & 44905 & 0.086 & 7 & di, e, al \\
-        Javanese & Latin & 281161 & 0.040 & 8 & ing, lan, iku \\
-        Rusyn & Cyrillic & 112582 & 0.149 & 8 & {\fontencoding{T2A}\selectfont в, на, є} \\
-        Ido & Latin & 129897 & 0.029 & 7 & la, di, e \\
-        Norman & Latin & 31509 & 0.106 & 7 & d, est, la \\
-        Ligurian & Latin & 133733 & 0.090 & 7 & l, a, de \\
-        Karakalpak & Latin & 104775 & 0.144 & 8 & h\'am, menen, bul \\
-        Romanian & Latin & 1102965 & 0.013 & 8 & \^in, de, \c{s}i \\
-        Somali & Latin & 118361 & 0.076 & 8 & oo, iyo, ka \\
-        Lombard & Latin & 239355 & 0.042 & 7 & l, \`e, de \\
-        Norwegian Bokm\aa l & Latin & 1918724 & 0.018 & 10 & i, og, en \\
-        West Flemish & Latin & 96384 & 0.079 & 8 & de, van, in \\
-        M\=aori & Latin & 15232 & 0.033 & 7 & te, ko, o \\
-        Icelandic & Latin & 451176 & 0.051 & 10 & \'i, og, \'a \\
-        Mongolian & Cyrillic & 235807 & 0.044 & 8 & {\fontencoding{T2A}\selectfont нь, оны, юм} \\
-        Dutch & Latin & 2866741 & 0.009 & 10 & de, van, in \\
-        Kabyle & Latin & 52338 & 0.106 & 7 & n, d, deg \\
-        Tsonga & Latin & 14810 & 0.116 & 8 & hi, na, ya \\
-        Madurese & Latin & 33922 & 0.155 & 7 & b\^an, \`e, s\`e \\
-        \bottomrule
-    \end{tabular}
-\end{table*}
 
 \subsection{Glottoset BPE Tokenization}
 \label{sec:bpe}
@@ -512,25 +471,21 @@ Our approach carries five limitations that shape how the results should be read.
 
 \textbf{Corpus composition.} BPE-based comparisons remain sensitive to corpus composition; Wikipedia's topical biases and systematic coverage disparities may introduce artefacts into distance measures. Script confounds (e.g., shared Latin function words, code-switching residue) can create artificial clustering.
 
-\textbf{Custom tokenizer.} We do not compare against SentencePiece Unigram or WordPiece under the same corpora; we release the tokenizer and glottosets to enable that comparison in follow-up work.
+\textbf{Baseline scope.} We do not compare against SentencePiece Unigram, WordPiece, or jointly-trained mBERT-family multilingual tokenizers; matching their training corpora and objectives was out of scope. Comparing our per-language BPE against a subword vocabulary jointly learned across the same 242 languages is left to future work~\citep{rust-etal-2021-good}.
 
-\textbf{No comparison to mBERT-family multilingual tokenizers.} mBERT, XLM-R, and mT5 tokenizers are trained jointly across languages under different training corpora and objectives; matching those setups was out of scope here. Comparing our per-language tokenizers against a subword vocabulary jointly learned across the same 242 languages is left to future work; \citet{rust-etal-2021-good} suggest such a comparison would primarily illuminate the value of per-language vocabulary allocation.
-
-Beyond addressing these limitations, planned work applies this framework to Common Crawl for expanded coverage, compares BPE distances against typological databases WALS~\citep{wals} and Grambank~\citep{grambank}, and controls for word frequency, as suggested by \S\ref{sec:e4}, to separate frequency effects from morphological differences.
+Beyond these limitations, planned work applies this framework to Common Crawl for expanded coverage, compares BPE distances against typological databases WALS~\citep{wals} and Grambank~\citep{grambank}, and controls for word frequency (\S\ref{sec:e4}) to separate frequency effects from morphological differences.
 
 \section{Conclusion}
 
-We outline a large-scale, script-focused comparative linguistic framework that leverages Wikipedia dumps spanning hundreds of languages using either the Latin or Cyrillic script. Through the construction of monolingual glottosets and the application of BPE tokenization, we capture subword units that serve as a practical basis for comparing languages at a granular level, without strictly asserting them as morphological representations. Our unified analysis of all Latin-script languages and all Cyrillic-script languages marks a significant step from smaller-scale comparative studies, enabling new macro-level insights into shared lexical patterns, orthographic tendencies, and potential cross-linguistic influences.
-
-Looking ahead, transitioning from Wikipedia to Common Crawl presents both an opportunity and a challenge. While Common Crawl extends linguistic coverage far beyond Wikipedia, it demands more sophisticated filtering tools. Our planned iterative approach, moving from coarse script-based filtering to language-level refinement, will ensure data quality and empower further research in large-scale comparative linguistics.
+We introduce \textsc{morphoBPE}, a per-language BPE framework for macro-linguistic comparison across 242 Latin- and Cyrillic-script languages, with four diagnostic evaluations (language identification, morphological boundary agreement, phylogenetic signal, homograph discrimination) that quantify what BPE captures and where it fails. Against the fastText \texttt{lid.176} baseline, per-language BPE is a coverage-first tool for the 147 languages fastText cannot label, complementing rather than competing with supervised systems in the languages they cover. We release the code, tokenizers, and Wikipedia glottosets to support extension to Common Crawl and to typological databases.
 
 \section{Data Availability and Reproducibility}
 
-The reproducible code, together with the trained per-language BPE tokenizers, the evaluation scripts for E1--E4 including the fastText comparison of \S\ref{sec:e1}, and the merge-graph visualisation, is available at \url{https://github.com/aglabx/morphoBPE} under the MIT licence. The Wikipedia glottosets (per-language TF-DF word lists) are released on Hugging Face at \url{https://huggingface.co/datasets/aglabx/wiki_glottosets} under CC BY-SA.
+The reproducible code, trained per-language BPE tokenizers, and evaluation scripts (including the fastText comparison of \S\ref{sec:e1}) are available at \url{https://github.com/aglabx/morphoBPE} under the MIT licence. The Wikipedia glottosets (per-language TF-DF word lists) are released on Hugging Face at \url{https://huggingface.co/datasets/aglabx/wiki_glottosets} under CC BY-SA.
 
 \section{AI Models Usage}
 
-As non-native English speakers, we used Claude Opus 4.5 for text editing. GitHub Copilot assisted with code completion. For research automation, we used Claude Code integrated with html-based reports for experimental pipelines and iterative analysis. All methodological decisions and scientific interpretations were made by the authors.
+As non-native English speakers, we used Claude Opus 4.5 for text editing and GitHub Copilot for code completion. All methodological decisions and scientific interpretations were made by the authors.
 
 \bibliography{custom}
 \newpage
@@ -565,6 +520,49 @@ As non-native English speakers, we used Claude Opus 4.5 for text editing. GitHub
   \caption{Visualization of interactive BPE merge graphs for Ukrainian (left) and Finnish (right) subword tokenization patterns. The diagrams show directed merge sequences with reuse counts indicated in parentheses. Vertical black bars represent merge steps, while edges show the progression of subword unit formation. The contrasting patterns reflect language-specific morphological characteristics: Ukrainian showing consistent Cyrillic character combinations, while Finnish exhibits agglutinative patterns. Interactive web application available on our repository.}
   \label{fig:bpe_merge}
 \end{figure}
+
+\begin{table}[ht]
+    \caption{Lexical statistics for a diverse set of languages using Latin and Cyrillic scripts. The table presents vocabulary size (ranging from 1,447 for Cheyenne to 3,207,272 for Hungarian), lexical diversity scores (from 0.009 in Dutch to 0.383 in Cheyenne), median word length (6--10 characters), and top-3 most frequent tokens.}
+    \label{tab:lexical_stats_median}
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.1}
+    \begin{tabular}{l c c c c c}
+        \toprule
+        \textbf{Language} & \textbf{Script} & \textbf{Vocab Size} & \textbf{Lex.\ Div.} & \textbf{Med.\ WL} & \textbf{Top3} \\
+        \midrule
+        Swiss German & Latin & 565258 & 0.070 & 10 & d, isch, dr \\
+        Tajik & Cyrillic & 317780 & 0.041 & 8 & {\fontencoding{T2A}\selectfont дар, аз, ки} \\
+        Hungarian & Latin & 3207272 & 0.025 & 10 & a, \'es, az \\
+        Lingala & Latin & 23153 & 0.123 & 7 & ya, na, ezal\'i \\
+        Zeeuws & Latin & 51177 & 0.087 & 8 & de, n, t \\
+        Lak & Cyrillic & 6890 & 0.315 & 7 & {\fontencoding{T2A}\selectfont ва, шагьру, инсан} \\
+        Malay & Latin & 637993 & 0.011 & 8 & yang, di, dan \\
+        Cheyenne & Latin & 1447 & 0.383 & 6 & ho, e, v\'e \\
+        Aymara & Latin & 29323 & 0.171 & 8 & a, jisk, suyu \\
+        Friulian & Latin & 44905 & 0.086 & 7 & di, e, al \\
+        Javanese & Latin & 281161 & 0.040 & 8 & ing, lan, iku \\
+        Rusyn & Cyrillic & 112582 & 0.149 & 8 & {\fontencoding{T2A}\selectfont в, на, є} \\
+        Ido & Latin & 129897 & 0.029 & 7 & la, di, e \\
+        Norman & Latin & 31509 & 0.106 & 7 & d, est, la \\
+        Ligurian & Latin & 133733 & 0.090 & 7 & l, a, de \\
+        Karakalpak & Latin & 104775 & 0.144 & 8 & h\'am, menen, bul \\
+        Romanian & Latin & 1102965 & 0.013 & 8 & \^in, de, \c{s}i \\
+        Somali & Latin & 118361 & 0.076 & 8 & oo, iyo, ka \\
+        Lombard & Latin & 239355 & 0.042 & 7 & l, \`e, de \\
+        Norwegian Bokm\aa l & Latin & 1918724 & 0.018 & 10 & i, og, en \\
+        West Flemish & Latin & 96384 & 0.079 & 8 & de, van, in \\
+        M\=aori & Latin & 15232 & 0.033 & 7 & te, ko, o \\
+        Icelandic & Latin & 451176 & 0.051 & 10 & \'i, og, \'a \\
+        Mongolian & Cyrillic & 235807 & 0.044 & 8 & {\fontencoding{T2A}\selectfont нь, оны, юм} \\
+        Dutch & Latin & 2866741 & 0.009 & 10 & de, van, in \\
+        Kabyle & Latin & 52338 & 0.106 & 7 & n, d, deg \\
+        Tsonga & Latin & 14810 & 0.116 & 8 & hi, na, ya \\
+        Madurese & Latin & 33922 & 0.155 & 7 & b\^an, \`e, s\`e \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
 
 \begin{table}[ht]
     \caption{Script contamination analysis for languages using non-Latin/non-Cyrillic writing systems. Data shows language names, codes, raw paragraph counts, native script types, and the number of detected Latin and Cyrillic tokens representing potential script contamination.}
