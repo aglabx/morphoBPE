@@ -110,7 +110,7 @@ Using Wikipedia Glottosets}
 \begin{document}
 \maketitle
 \begin{abstract}
-We release \textsc{morphoBPE}, a framework for training and comparing per-language Byte-Pair Encoding (BPE) tokenizers across 242 Latin- and Cyrillic-script languages built from Wikipedia \emph{glottosets} (per-language TF-DF lexicons), together with four diagnostic evaluations that probe what BPE captures across scripts. On unsupervised language identification via token count, our method reaches 13.8\% accuracy across 321 Latin-script languages (random 0.31\%); the supervised fastText \texttt{lid.176} baseline reaches 19.83\% on the same 320-language test set but returns 0\% for 147 of them because they fall outside its 176-language label alphabet, including our best-performing typologically distinctive languages (Lak 81.5\%, Cree 80.6\%, Inuktitut 63.8\%, Kabardian 60.1\%, all 0\% under fastText). BPE segmentation aligns with morpheme boundaries at F1 = 0.28 across 15 languages with derivational annotations (random 0.13), below the F1 = 0.43 of the unsupervised Morfessor baseline; BPE pre-training on target-language Wikipedia beats supervised character-\textit{n}-gram boundary classifiers trained on a related source language by +37\% F1 across six cross-lingual pairs, where labeled morphological data is unavailable. Pairwise BPE distance correlates moderately with Glottolog phylogeny (Mantel $r = 0.329$, $p < 0.001$; Romance forms the tightest cluster, mean distance 0.51). Across 26{,}939 Slavic Cyrillic homographs, 48.7\% receive different segmentations across related languages, correlating with linguistic distance. We position per-language BPE as a scalable \emph{diagnostic} tool for macro-linguistic comparison across languages lacking labeled morphological data, not as a substitute for supervised methods where such data exists.
+We release \textsc{morphoBPE}, a framework for training and comparing per-language BPE tokenizers across 242 Latin- and Cyrillic-script languages built from Wikipedia \emph{glottosets} (per-language TF-DF lexicons), with four diagnostic evaluations of what BPE captures across scripts. Unsupervised language identification by token count reaches 13.8\% accuracy across 321 Latin-script languages, against 19.83\% for supervised fastText \texttt{lid.176}, which returns zero for 147 of them because they fall outside its 176-language alphabet, including our best performers (Lak 81.5\%, Cree 80.6\%, Inuktitut 63.8\%, Kabardian 60.1\%). BPE aligns with morpheme boundaries at F1 = 0.28 across 15 languages (Morfessor: 0.43), and beats supervised character-\textit{n}-gram cross-lingual transfer by +37\% F1 across six pairs where labeled morphology is unavailable. BPE distance correlates moderately with Glottolog phylogeny (Mantel $r = 0.329$). We position per-language BPE as a coverage-first diagnostic for languages outside the supervised long tail, not as a substitute for supervised methods where labels exist.
 \end{abstract}
 
 \section{Introduction}
@@ -460,30 +460,35 @@ The E1 head-to-head against fastText \texttt{lid.176} (\S\ref{sec:e1}) makes pre
 \subsection{Relationship to Existing Approaches}
 Our work extends the link between BPE compression and linguistic typology (\citealt{gutierrez-vasques-etal-2023-languages}). Unlike character $n$-gram methods, our approach operates at a linguistically meaningful level of emergent subwords. While supervised morphological analyzers offer higher precision, BPE scales to hundreds of languages without annotated data, providing a robust signal for macro-linguistics. Our results complement studies on language universals (\citealt{ponti-etal-2019-modeling}), indicating that subword similarity reflects areal, cultural, and parallel typological developments.
 
-\subsection{Limitations and Future Directions}
-\label{sec:limits}
-
-Our approach carries five limitations that shape how the results should be read.
-
-\textbf{Statistical exposure, not linguistic morphology.} BPE segmentation reflects token frequency, not morpheme identity. Words that are morphologically productive but low-frequency in a Wikipedia corpus receive coarser segmentations than high-frequency loanwords; this is why E2 sits at F1~0.28 while Morfessor reaches 0.43 on the same 15 languages, and why our phylogenetic signal (\S\ref{sec:e3}) shifts the English vocabulary toward Romance. The BPE-as-morphology reading is heuristic, and our conclusions are worded to reflect this.
-
-\textbf{Uneven E1 performance by typology.} Our E1 top-4 is dominated by agglutinative and orthographically distinctive languages (Lak 81.5\%, Cree 80.6\%, Inuktitut 63.8\%, Kabardian 60.1\%); high-lexical-overlap pairs sit at low accuracy. Two consequences follow. First, our overall 13.8\% is not a uniform quality claim: it aggregates near-random cases with near-ceiling cases. Second, the method's utility is greatest for the linguistic long tail where supervised tools are absent, and least where they are strongest. The camera-ready comparison against fastText \texttt{lid.176} makes this explicit.
-
-\textbf{Corpus composition.} BPE-based comparisons remain sensitive to corpus composition; Wikipedia's topical biases and systematic coverage disparities may introduce artefacts into distance measures. Script confounds (e.g., shared Latin function words, code-switching residue) can create artificial clustering.
-
-\textbf{Baseline scope.} We do not compare against SentencePiece Unigram, WordPiece, or jointly-trained mBERT-family multilingual tokenizers; matching their training corpora and objectives was out of scope. Comparing our per-language BPE against a subword vocabulary jointly learned across the same 242 languages is left to future work~\citep{rust-etal-2021-good}.
-
-Beyond these limitations, planned work applies this framework to Common Crawl for expanded coverage, compares BPE distances against typological databases WALS~\citep{wals} and Grambank~\citep{grambank}, and controls for word frequency (\S\ref{sec:e4}) to separate frequency effects from morphological differences.
+\subsection{Future Directions}
+Planned work applies this framework to Common Crawl for expanded coverage, compares BPE distances against typological databases WALS~\citep{wals} and Grambank~\citep{grambank}, and controls for word frequency (\S\ref{sec:e4}) to separate frequency effects from morphological differences.
 
 \section{Conclusion}
 
 We introduce \textsc{morphoBPE}, a per-language BPE framework for macro-linguistic comparison across 242 Latin- and Cyrillic-script languages, with four diagnostic evaluations (language identification, morphological boundary agreement, phylogenetic signal, homograph discrimination) that quantify what BPE captures and where it fails. Against the fastText \texttt{lid.176} baseline, per-language BPE is a coverage-first tool for the 147 languages fastText cannot label, complementing rather than competing with supervised systems in the languages they cover. We release the code, tokenizers, and Wikipedia glottosets to support extension to Common Crawl and to typological databases.
 
-\section{Data Availability and Reproducibility}
+\section*{Limitations}
+\label{sec:limits}
+
+Our approach carries four limitations that shape how the results should be read.
+
+\textbf{Statistical exposure, not linguistic morphology.} BPE segmentation reflects token frequency, not morpheme identity. Words that are morphologically productive but low-frequency in a Wikipedia corpus receive coarser segmentations than high-frequency loanwords; this is why E2 sits at F1~0.28 while Morfessor reaches 0.43 on the same 15 languages, and why our phylogenetic signal (\S\ref{sec:e3}) shifts the English vocabulary toward Romance. The BPE-as-morphology reading is heuristic, and our conclusions are worded to reflect this.
+
+\textbf{Uneven E1 performance by typology.} Our E1 top-4 is dominated by agglutinative and orthographically distinctive languages (Lak 81.5\%, Cree 80.6\%, Inuktitut 63.8\%, Kabardian 60.1\%); high-lexical-overlap pairs sit at low accuracy. Two consequences follow. First, our overall 13.8\% is not a uniform quality claim: it aggregates near-random cases with near-ceiling cases. Second, the method's utility is greatest for the linguistic long tail where supervised tools are absent, and least where they are strongest. The comparison against fastText \texttt{lid.176} makes this explicit.
+
+\textbf{Corpus composition.} BPE-based comparisons remain sensitive to corpus composition; Wikipedia's topical biases and systematic coverage disparities may introduce artefacts into distance measures. Script confounds (e.g., shared Latin function words, code-switching residue) can create artificial clustering.
+
+\textbf{Baseline scope.} We do not compare against SentencePiece Unigram, WordPiece, or jointly-trained mBERT-family multilingual tokenizers; matching their training corpora and objectives was out of scope. Comparing our per-language BPE against a subword vocabulary jointly learned across the same 242 languages is left to future work~\citep{rust-etal-2021-good}.
+
+\section*{Ethical Considerations}
+
+The study relies exclusively on publicly available Wikipedia dumps and derived per-language TF-DF word lists; no human subjects, private, or otherwise identifiable data are involved. The Wikipedia dumps are released under the CC BY-SA licence, which we preserve in our released glottosets. The method's uneven E1 performance across typology (see Limitations) is symmetric with the linguistic long-tail problem: the languages most helped by unsupervised BPE identification --- agglutinative, orthographically distinctive, geographically isolated --- are precisely those historically excluded from supervised language identification. We view this as a positive impact on coverage but caution against interpreting per-language accuracy as a fitness measure for any language.
+
+\section*{Data Availability and Reproducibility}
 
 The reproducible code, trained per-language BPE tokenizers, and evaluation scripts (including the fastText comparison of \S\ref{sec:e1}) are available at \url{https://github.com/aglabx/morphoBPE} under the MIT licence. The Wikipedia glottosets (per-language TF-DF word lists) are released on Hugging Face at \url{https://huggingface.co/datasets/aglabx/wiki_glottosets} under CC BY-SA.
 
-\section{AI Models Usage}
+\section*{AI Models Usage}
 
 As non-native English speakers, we used Claude Opus 4.5 for text editing and GitHub Copilot for code completion. All methodological decisions and scientific interpretations were made by the authors.
 
